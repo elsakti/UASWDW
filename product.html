@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SECOND ONE | Products</title>
+    <link rel="shortcut icon"
+        href="https://png.pngtree.com/png-vector/20230420/ourmid/pngtree-green-leaf-icon-design-template-vector-image_6710581.png"
+        type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container mt-3">
+            <!-- Desktop Navbar -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-pill d-none d-lg-block"
+                style="position: fixed; width: 90%;">
+                <div class="container-fluid">
+                    <a class="navbar-brand hyeon" href="#" style="margin-left: 5%;">SECONDE</a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="margin-right: 5%;">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="product.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Mobile Navbar -->
+            <nav class="navbar bg-body-tertiary d-block d-lg-none rounded-3" style="position: fixed; width: 90%;">
+                <div class="container-fluid">
+                    <a class="navbar-brand hyeon" href="#">SECONE</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="product.html">Products</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About me</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <section class="hero vh-50 d-flex align-items-center justify-content-center text-center text-white"
+        style="padding-top: 10%; padding-bottom: 5%;">
+        <div class="container">
+            <h1 class="hyeon-big display-4">OUR PRODUCTS</h1>
+            <p class="lead hyeon" style="font-size: 4vh;">Find your perfect, second hand products</p>
+        </div>
+    </section>
+    <section>
+        <div class="information">
+            <div class="container">
+                <div class="row align-items-center py-4">
+                    <div class="col-md-6 text-center">
+                        <div class="p-4">
+                            <img src="/images/product.svg" alt="Right side image" class="img-fluid" width="400vh">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-5">
+                            <h2 class="hyeon mb-3">Welcome To <span style="color: #347928;">SECONE</span></h2>
+                            <p class="lead" style="font-weight: 400;">
+                                Step into a world of <strong>renewed treasures</strong> at SECONE!
+                                Each piece in our collection tells its own <strong>extraordinary story</strong>,
+                                waiting to become part of your unique journey. From vintage gems to modern classics,
+                                we've curated a selection that's kind to both your wallet and our planet.
+                                Ready to discover your next favorite piece? Let's make
+                                <strong>sustainable fashion</strong> your new statement!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        .card-img-top {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card {
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .top-products img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+    </style>
+    <section class="top-products py-5">
+        <div class="container">
+            <h2 class="text-center hyeon mb-5 text-light">Top Picks This Week</h2>
+            <div class="row">
+                <!-- Top Product 1 -->
+                <div class="col-md-4">
+                    <div class="position-relative mb-4">
+                        <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500"
+                            class="img-fluid rounded-4" alt="Vintage Leather Jacket">
+                        <div class="position-absolute bottom-0 start-0 p-3 text-white"
+                            style="background: linear-gradient(transparent, rgba(0,0,0,0.7));">
+                            <h4 class="hyeon">Vintage Leather Jacket</h4>
+                            <span class="badge bg-success">Best Seller</span>
+                            <p class="mb-0">$89.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Top Product 2 -->
+                <div class="col-md-4">
+                    <div class="position-relative mb-4">
+                        <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?w=500"
+                            class="img-fluid rounded-4" alt="Eco Canvas Backpack">
+                        <div class="position-absolute bottom-0 start-0 p-3 text-white"
+                            style="background: linear-gradient(transparent, rgba(0,0,0,0.7));">
+                            <h4 class="hyeon">Eco Canvas Backpack</h4>
+                            <span class="badge bg-success">Trending</span>
+                            <p class="mb-0">$45.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Top Product 3 -->
+                <div class="col-md-4">
+                    <div class="position-relative mb-4">
+                        <img src="https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+                            class="img-fluid rounded-4" alt="Retro Sunglasses">
+                        <div class="position-absolute bottom-0 start-0 p-3 text-white"
+                            style="background: linear-gradient(transparent, rgba(0,0,0,0.7));">
+                            <h4 class="hyeon">Retro Sunglasses</h4>
+                            <span class="badge bg-success">Editor's Choice</span>
+                            <p class="mb-0">$34.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="all-products py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center hyeon mb-5">Our Collection</h2>
+            <div class="row g-4">
+                <!-- Product Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500"
+                            class="card-img-top" alt="Vintage Denim">
+                        <div class="card-body">
+                            <h5 class="card-title hyeon">Classic Denim Jacket</h5>
+                            <p class="card-text">Timeless vintage denim, perfectly distressed</p>
+                            <p class="text-success fw-bold">$65.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1591561954557-26941169b49e?w=500"
+                            class="card-img-top" alt="Leather Bag">
+                        <div class="card-body">
+                            <h5 class="card-title hyeon">Handcrafted Leather Bag</h5>
+                            <p class="card-text">Sustainable leather, artisan crafted</p>
+                            <p class="text-success fw-bold">$79.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1723356741818-e59c92ab09bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGl0ZW18ZW58MHx8MHx8fDA%3D"
+                            class="card-img-top" alt="Vintage Watch">
+                        <div class="card-body">
+                            <h5 class="card-title hyeon">Vintage Timepiece</h5>
+                            <p class="card-text">Restored classic watch, perfect condition</p>
+                            <p class="text-success fw-bold">$129.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 4 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
+                            class="card-img-top" alt="Vintage Boots">
+                        <div class="card-body">
+                            <h5 class="card-title hyeon">Leather Boots</h5>
+                            <p class="card-text">Restored vintage boots, built to last</p>
+                            <p class="text-success fw-bold">$95.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 5 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?w=500"
+                            class="card-img-top" alt="Silk Scarf">
+                        <div class="card-body">
+                            <h5 class="card-title hyeon">Vintage Silk Scarf</h5>
+                            <p class="card-text">Elegant vintage silk, unique patterns</p>
+                            <p class="text-success fw-bold">$29.99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product Card 6 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=500"
+                            class="card-img-top" alt="Record Player">
+                        <div class="card-body">
+                            <h5 class="card-title hyeon">Vintage Record Player</h5>
+                            <p class="card-text">Restored classic turntable, amazing sound</p>
+                            <p class="text-success fw-bold">$199.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-body-tertiary text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">About Us</h5>
+                    <p>
+                        We are committed to providing eco-friendly products that help you live a sustainable lifestyle.
+                        Join us in making the world a greener place.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-dark">Home</a></li>
+                        <li><a href="product.html" class="text-dark">Products</a></li>
+                        <li><a href="about.html" class="text-dark">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Contact Us</h5>
+                    <p>
+                        Email: info@secone.com<br>
+                        Phone: +123 456 7890
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1);">
+            © 2023 SECONDE. All rights reserved.
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

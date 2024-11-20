@@ -1,0 +1,87 @@
+body {
+    background-color: green;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.95) !important; /* Makes background slightly transparent */
+}
+
+.hyeon {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.hyeon-big {
+    font-family: "Do Hyeon", sans-serif;
+    font-size: 15vh;
+    font-style: bold;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.card-img-top {
+    height: 80%;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+.information {
+    background-color: aliceblue;
+}
+
+.products {
+    position: relative;
+    background-image: url('/images/bot-img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(56, 181, 34, 0.5); /* Ganti dengan warna dan opacity yang diinginkan */
+    z-index: 1; /* Pastikan overlay berada di bawah konten */
+}
+
+.container {
+    position: relative;
+    z-index: 2; /* Pastikan konten berada di atas overlay */
+}
+
+@media only screen and (max-width: 768px) {
+    .hyeon-big {
+        font-size: 12vh;
+    }
+}
